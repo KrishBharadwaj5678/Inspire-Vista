@@ -22,8 +22,8 @@ if btn:
         if(data.status_code==200):
             quote=data.json()[0]["q"]
             author=data.json()[0]["a"]
-            st.write(f"<h4 style='line-height:29px;'>{quote}</h3>",unsafe_allow_html=True)
-            st.write(f"<h5 style='text-align:right'>~ {author}</h4>",unsafe_allow_html=True)
+            st.write(f"<h4 style='line-height:29px;'>{quote}</h4>",unsafe_allow_html=True)
+            st.write(f"<h5 style='text-align:right'>~ {author}</h5>",unsafe_allow_html=True)
     except:
         st.toast("Network Error",icon="🔌")
 

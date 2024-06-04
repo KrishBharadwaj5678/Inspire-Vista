@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.markdown("## :orange[Welcome to Your Daily Dose of Motivation !]")
 
-st.write("<h5 style='line-height:28px;'>Feeling stuck or in need of a little inspiration? You've come to the right place! Our Motivational Quotes Generator is here to lift your spirits and help you seize the day. With a vast collection of powerful, uplifting quotes from thinkers, leaders, and visionaries around the world, you'll find the perfect words to inspire your next move.</h5>",unsafe_allow_html=True)
+st.write("<h5 style='line-height:28px;'>Feeling stuck or in need of a little inspiration? You've come to the right place! Our Motivational Quotes Generator is here to lift your spirits and help you seize the day.</h5>",unsafe_allow_html=True)
 
 btn=st.button(":green[Motivate Me]")
 
@@ -26,7 +26,4 @@ if btn:
             st.write(f"<h5 style='text-align:right'>~ {author}</h4>",unsafe_allow_html=True)
     except:
         st.toast("Network Error",icon="🔌")
-
-
-
 

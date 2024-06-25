@@ -18,7 +18,6 @@ btn=st.button(":green[Motivate Me]")
 if btn:
     try:
         data=requests.get("https://zenquotes.io/api/random")
-        print(data.status_code)
         if(data.status_code==200):
             quote=data.json()[0]["q"]
             author=data.json()[0]["a"]

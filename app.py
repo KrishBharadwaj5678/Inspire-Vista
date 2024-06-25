@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(
-    page_title="Inspire Vista",
+    page_title="Motivational Quotes Generator",
     page_icon="🎯",
     menu_items={
         "About":"""Discover an ever-growing library of motivational quotes tailored to empower and motivate you in every aspect of your life."""
@@ -11,7 +11,7 @@ st.set_page_config(
 
 st.markdown("## :orange[Welcome to Your Daily Dose of Motivation !]")
 
-st.write("<h5 style='line-height:28px;'>Feeling stuck or in need of a little inspiration? You've come to the right place!</h5>",unsafe_allow_html=True)
+st.write("<h5 style='line-height:28px;'>Feeling stuck or in need of a little inspiration? You've come to the right place! Our Motivational Quotes Generator is here to lift your spirits and help you seize the day.</h5>",unsafe_allow_html=True)
 
 btn=st.button(":green[Motivate Me]")
 

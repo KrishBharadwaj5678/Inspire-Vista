@@ -19,8 +19,8 @@
 ### 🔹 Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/InspireVista.git
-cd InspireVista
+git clone https://github.com/KrishBharadwaj5678/Inspire-Vista.git
+cd Inspire-Vista
 ```
 
 ### 🔹 Web App (Streamlit)

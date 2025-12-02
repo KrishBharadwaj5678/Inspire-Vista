@@ -2,6 +2,8 @@
 
 **InspireVista** is a simple yet powerful Python based Motivational Quotes Generator designed to lift your spirits and help you seize the day!
 
+![InspireVistaDemo](https://github.com/KrishBharadwaj5678/Inspire-Vista/raw/main/InspireVistaDemo.png)
+
 ## 💫 Features
 
 | 🌟 Feature | 💬 Description |
